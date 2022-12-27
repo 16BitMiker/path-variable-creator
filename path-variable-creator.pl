@@ -3,7 +3,7 @@
 use Cwd 	   qw||;
 use Data::Dump qw|dump|;
 
-my $path = q|$PATH="%s$PATH"|;
+my $path = q|export PATH="%s$PATH"|;
 my $dirs =  [ ];
 my $loc  = q|.|;
 my $list = q||;
