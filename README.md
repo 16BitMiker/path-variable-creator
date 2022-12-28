@@ -4,8 +4,10 @@ Recursively scans a folder structure to determine all sub folders then outputs a
 
 ## Details
 
-- **path-variable-creator.pl** - outputs a *$PATH* variable.
-- **collect-scripts-location.rb** - gets scripting file names recursively (in case you forgot).
+- **path-variable-creator.pl** - outputs a **$PATH** variable via **STDOUT**.
+- **collect-scripts-location.rb** - gets scripting file names recursively (in case you forgot). 
+  - formats include: [ **js|py|pl|p6|rb|sh** ]
+
 
 ## Example Output
 
